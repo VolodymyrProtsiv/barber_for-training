@@ -1,1 +1,2 @@
-# barber_for-training
+# template-for--TML
+with normalize and drop style for css
