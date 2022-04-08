@@ -16,23 +16,12 @@ img {
 }
 
 body {
-  position: relative;
-  font-family: "Roboto", sans-serif;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
   padding: 0 15px;
   margin: 0 auto;
-  background-color: white;
 }
 
 @media screen and (min-width: 480px) {
@@ -51,5 +40,33 @@ body {
   .container {
     width: 1200px;
   }
+}
+
+.section {
+  background-color: white;
+  margin: 84px 0;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+}
+
+.pre__title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
 }
 /*# sourceMappingURL=main.css.map */
