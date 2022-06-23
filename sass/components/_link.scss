@@ -2,3 +2,22 @@
     text-decoration: none;
     cursor:pointer;
 }
+.mob__menu{
+    
+    // width: 375px;
+    height: 100%;
+    background-color: beige;
+    padding: 62px;
+
+
+   &--list{
+    margin-bottom: 64px;
+   }
+
+   &--item{
+    margin-bottom: 24px;
+    }
+    &--item:last-child{
+        margin-bottom: 0;
+    }
+}
