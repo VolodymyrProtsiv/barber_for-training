@@ -54,12 +54,22 @@ body {
 }
 
 .mob__menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 100%;
   background-color: beige;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .mob__menu--list {
@@ -72,6 +82,17 @@ body {
 
 .mob__menu--item:last-child {
   margin-bottom: 0;
+}
+
+.mob__menu--tell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 64px;
 }
 
 .list {

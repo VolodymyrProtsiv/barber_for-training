@@ -3,13 +3,17 @@
     cursor:pointer;
 }
 .mob__menu{
-    position: absolute;
+    position: fixed;
     top:0;
     right: 0;
-    // width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    //  width: 375px;
     height: 100%;
     background-color: beige;
-    padding: 20px;
+    padding: 50px 20px;
 
 
    &--list{
@@ -21,6 +25,13 @@
     }
     &--item:last-child{
         margin-bottom: 0;
+    }
+
+    &--tell{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+
     }
 }
 
