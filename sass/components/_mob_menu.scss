@@ -1,0 +1,32 @@
+.mob__menu{
+    position: fixed;
+    top:0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    //  width: 375px;
+    height: 100%;
+    background-color: beige;
+    padding: 50px 20px;
+
+
+   &--list{
+    margin-bottom: 64px;
+   }
+
+   &--item{
+    margin-bottom: 24px;
+    }
+    &--item:last-child{
+        margin-bottom: 0;
+    }
+
+    &--tell{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+
+    }
+}

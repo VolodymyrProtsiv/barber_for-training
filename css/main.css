@@ -53,6 +53,24 @@ body {
   cursor: pointer;
 }
 
+.list {
+  list-style: none;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+}
+
+.pre__title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
 .mob__menu {
   position: fixed;
   top: 0;
@@ -93,23 +111,5 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 64px;
-}
-
-.list {
-  list-style: none;
-}
-
-.title {
-  font-family: 'Raleway', sans-serif;
-}
-
-.pre__title {
-  margin-bottom: 20px;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 15px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #303030;
 }
 /*# sourceMappingURL=main.css.map */
