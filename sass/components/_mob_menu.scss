@@ -42,3 +42,19 @@
 
    
 }
+
+
+
+
+// max-width-767px
+@media screen and (min-width:767px){
+    .mob__menu{
+        display: none;
+    }
+
+    .btn__mobile{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,49 @@
+.logo{
+    display: block;
+    color: $logo;
+    
+    transition: color $pr-transition;
+
+     
+
+    &:focus,
+    &:hover{
+        color: $actcent-col;
+    }
+   
+}
+
+
+
+.nav__container{ 
+    display: flex;
+    padding-top: 40px;
+}
+
+.btn__mobile{
+    width: 40px;
+    height: 40px;
+
+    margin-left: auto;
+    border: transparent;
+    background-color: transparent;
+
+    cursor: pointer;
+
+//    transition:   $pr-transition;
+
+}
+.icon__mobile{
+    fill: currentColor;
+    transition: fill $pr-transition;
+ 
+    .btn__mobile:focus>&,
+     .btn__mobile:hover>&{
+             fill: $actcent-col;
+             
+             
+         }  
+ }
+
+
+

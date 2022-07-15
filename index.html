@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,14 +25,23 @@
     <!-- header -->
     <header class="header">
       <div class="container">
-        <!-- mobile-menu -->
-        <div class="mob__menu">
+        <div class="nav__container">
           <!-- logo -->
           <a class="logo" href="./index.html">
-            <svg class="icon__mobile--open" width="68" height="55">
+            <svg class="icon__mobile" width="68" height="55">
               <use class="open" href="./img/icons.svg#icon-Logo"></use>
             </svg>
           </a>
+          <!-- btn-open-mob -->
+          <button class="btn__mobile">
+            <svg class="icon__mobile" width="40" height="40">
+              <use class="open" href="./img/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+
+        <!-- mobile-menu -->
+        <div class="mob__menu">
           <!-- nav-mob-menu -->
           <nav>
             <ul class="list mob__menu--list">
@@ -69,7 +78,7 @@
     <!-- hero-section -->
     <section>
       <div class="container">
-        <img src="./img/hero/Mob-hero-img1-min.jpg" alt="" />
+        <!-- <img src="./img/hero/Mob-hero-img1-min.jpg" alt="" /> -->
       </div>
     </section>
 
