@@ -2,14 +2,34 @@
     position: fixed;
     top:0;
     right: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
     width: 320px;
     height: 100%;
-    background-color: beige;
     padding: 50px ;
+
+    transform: translateX(100%);
+    transition: transform $pr-transition;
+
+    visibility: hidden;
+    pointer-events: none;
+    overflow: scroll;
+
+
+    background-color: beige;
+
+    &.is-open{
+        transform: translateX(0);
+       
+            
+        visibility: visible;
+        pointer-events: auto;
+        
+    }
+    
 
 
    &--list{
