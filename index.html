@@ -39,16 +39,27 @@
             aria-controls="mobile-menu"
             type="button"
           >
-            <svg class="icon__mobile" width="40" height="40">
+            <svg class="icon__mobile icon__mobile--open" width="40" height="40">
               <use class="open" href="./img/icons.svg#icon-menu"></use>
             </svg>
           </button>
         </div>
 
         <!-- mobile-menu -->
-        <div class="mob__menu">
+        <div class="mob__menu js-menu">
+          <!-- btn-close-mob-menu -->
+          <button
+            class="btn__mobile js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            type="button"
+          >
+            <svg class="icon__mobile" width="40" height="40">
+              <use class="open" href="./img/icons.svg#icon-close"></use>
+            </svg>
+          </button>
           <!-- nav-mob-menu -->
-          <nav>
+          <nav class="mob__menu--nav">
             <ul class="list mob__menu--list">
               <li class="mob__menu--item">
                 <a class="mob__menu--link link" href="">О нас</a>
